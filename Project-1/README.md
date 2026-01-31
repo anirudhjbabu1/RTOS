@@ -25,3 +25,7 @@ Connect the DHT11 sensor data pin to GPIO 4, VCC to 3.3V, and GND to ground.
   
   // Create Task for temperature reading
   xTaskCreate(TemperatureTask, "Temperature Task", 1000, NULL, 1, NULL);
+
+  # Delay
+
+  vTaskDelay is used for delay
