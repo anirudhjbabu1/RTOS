@@ -16,3 +16,12 @@ Jumper wires and a breadboard
 Connect the LED to GPIO Pin 2 through a resistor.
 
 Connect the DHT11 sensor data pin to GPIO 4, VCC to 3.3V, and GND to ground.
+
+
+# Task
+
+  // Create Task for LED blinking
+  xTaskCreate(LEDTask, "LED Task", 1000, NULL, 1, NULL);
+  
+  // Create Task for temperature reading
+  xTaskCreate(TemperatureTask, "Temperature Task", 1000, NULL, 1, NULL);
