@@ -5,10 +5,14 @@
 
 # Components:
 ESP32 board
+
 DHT11 temperature and humidity sensor
+
 LED and a suitable resistor (220Ω)
+
 Jumper wires and a breadboard
 
 # Connect the components as follows:
 Connect the LED to GPIO Pin 2 through a resistor.
+
 Connect the DHT11 sensor data pin to GPIO 4, VCC to 3.3V, and GND to ground.
